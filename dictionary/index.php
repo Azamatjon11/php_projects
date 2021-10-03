@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php 
-$search = $_GET['search']??"hello";
+$search = $_GET['search']??"like";
 include_once "api.php"
 ?> 
 <div class="container-fluid">

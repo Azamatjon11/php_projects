@@ -1,6 +1,6 @@
 
 <?php
-function getDefinition($search="hello"){
+function getDefinition($search="like"){
 	$curl = curl_init();
 	curl_setopt_array($curl, [
 	CURLOPT_URL => "https://lingua-robot.p.rapidapi.com/language/v1/entries/en/$search",
